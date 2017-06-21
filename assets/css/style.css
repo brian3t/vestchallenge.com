@@ -638,7 +638,7 @@ body {
     margin: 0 auto;
     width: 100%;
     background: #fff;
-    box-shadow: 0px 0px 10px #b4b4b4 !important;
+    box-shadow: 0 0 10px #b4b4b4 !important;
     font-family: Roboto, Raleway, 'Open Sans', Arial, sans-serif;
 }
 a, button, input[type="submit"] {
@@ -697,10 +697,10 @@ ul {
     color: #555;
 }
 .contact-top li:first-child {
-    padding-left: 0px
+    padding-left: 0
 }
 .contact-top li:last-child {
-    border-right: 0px
+    border-right: 0
 }
 .contact-top li i {
     font-size: 14px
@@ -727,15 +727,15 @@ ul.social-links li a:hover {
     color: #00C0E1
 }
 .page_head {
-    padding-top: 0px;
+    padding-top: 0;
     background-color: #fff;
 }
 .logo {
-    margin-top: 27px
+    margin-top: 27px; padding-bottom: 8px;
 }
 nav {
     position: relative;
-    left: 0px;
+    left: 0;
     z-index: 9999 !important;
     width: 100%;
     background: #fff;
@@ -769,7 +769,7 @@ nav {
 }
 .menu ul li ul {
     position: absolute;
-    left: 0px;
+    left: 0;
     display: block;
     visibility: hidden;
     width: 100%;
@@ -801,10 +801,9 @@ nav {
     -ms-transition: all 0s ease;
     -o-transition: all 0s ease;
     transition: all 0s ease;
-
 }
 .menu ul li:last-child a {
-    padding-right: 0px;
+    padding-right: 0;
 }
 .menu li a:hover {
     outline: none;
@@ -859,9 +858,9 @@ nav.sticky ul li a:before {
     display: none
 }
 .menu ul ul ul {
-    top: 0px !important;
+    top: 0 !important;
     left: 180px;
-    margin-top: 0px !important;
+    margin-top: 0 !important;
 }
 .menu ul li ul li ul {
     visibility: hidden !important
@@ -1313,7 +1312,7 @@ nav.sticky ul li a:before {
     border-radius: 2px
 }
 .soc-footer {
-    margin: 0px
+    margin: 0
 }
 .soc-footer li {
     font-size: 21px;
@@ -1434,8 +1433,8 @@ nav.sticky ul li a:before {
     clear: both;
     content: "";
     display: block;
-    height: 0px;
-    line-height: 0px;
+    height: 0;
+    line-height: 0;
     visibility: hidden;
 }
 .about-text {
@@ -1458,7 +1457,7 @@ nav.sticky ul li a:before {
     position: absolute;
     margin-top: -26px;
     margin-left: 168px;
-    padding: 0px 4px;
+    padding: 0 4px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
     border-radius: 2px;
@@ -1501,7 +1500,7 @@ nav.sticky ul li a:before {
 }
 #switcher-content {
     overflow: hidden;
-    padding: 0px 0 0px 0px;
+    padding: 0 0 0 0;
     width: 225px;
     background-color: rgba(56, 63, 68, 0.78);
 }
@@ -1531,7 +1530,7 @@ nav.sticky ul li a:before {
     overflow: hidden;
     margin-top: 5px;
     margin-left: 5px;
-    padding: 0px;
+    padding: 0;
 }
 #switcher-content li {
     float: left;
@@ -1691,8 +1690,8 @@ ul.switcher-op-selectors li a {
     width: 40% !important
 }
 .cbp-popup-singlePageInline .cbp-popup-close {
-    right: 0px !important;
-    top: 0px !important;
+    right: 0 !important;
+    top: 0 !important;
     outline: none;
 }
 .cbp-popup-singlePageInline .cbp-popup-navigation {
@@ -1786,7 +1785,7 @@ ul.switcher-op-selectors li a {
     display: block
 }
 .cbp-l-inline {
-    margin-top: 0px
+    margin-top: 0
 }
 .page-in {
     border-top: 1px solid #eee;
@@ -2291,7 +2290,7 @@ ul.switcher-op-selectors li a {
     background: #fff;
     border: 1px solid #eee;
     border-radius: 2px;
-    margin: 0px 2px 2px 2px;
+    margin: 0 2px 2px 2px;
 }
 .soc-about li a {
     color: #999
@@ -2338,8 +2337,8 @@ ul.switcher-op-selectors li a {
     font-size: 15px;
 }
 .serv-testim {
-    margin-top: 0px;
-    padding: 0px;
+    margin-top: 0;
+    padding: 0;
 }
 .serv-author {
     color: #666;
@@ -2380,11 +2379,11 @@ ul.switcher-op-selectors li a {
     outline: none;
     line-height: 1.75;
     box-shadow: none;
-    border-radius: 0px;
+    border-radius: 0;
     transition: none;
 }
 .soc-contacts {
-    margin: 0px
+    margin: 0
 }
 .soc-contacts li {
     font-size: 23px;
@@ -2468,7 +2467,7 @@ ul.switcher-op-selectors li a {
 .ac-container article {
     margin-top: -5px;
     overflow: hidden;
-    height: 0px;
+    height: 0;
     position: relative;
     z-index: 10;
     -webkit-transition: height 0.3s ease-in-out, box-shadow 0.6s linear;
@@ -2504,11 +2503,11 @@ ul.switcher-op-selectors li a {
     display: block;
     font-weight: 300;
     font-size: 11px;
-    margin-top: 0px;
+    margin-top: 0;
     color: #c0c0c0;
 }
 .plan .signup {
-    padding: 20px 0px;
+    padding: 20px 0;
     text-align: center;
     border-top: 1px solid #f2f2f2;
     border-bottom: 3px solid #f6f6f6;
@@ -2522,7 +2521,7 @@ ul.switcher-op-selectors li a {
 }
 .plan li {
     font-size: 12px;
-    padding: 10px 0px;
+    padding: 10px 0;
     text-align: center;
     background: #f9f9f9;
 }
@@ -2567,7 +2566,7 @@ ul.switcher-op-selectors li a {
     font-size: 54px;
     line-height: 38px;
     font-weight: 300;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0 10px 0;
     border-bottom: 1px solid #eee;
 }
 .plan.featured .signup {
@@ -2661,7 +2660,7 @@ ul.switcher-op-selectors li a {
 }
 form .alert {
     margin-bottom: 20px;
-    margin-top: 0px;
+    margin-top: 0;
 }
 .tooltip_s {
     color: #00C0E1
@@ -2801,7 +2800,7 @@ blockquote footer, blockquote small, blockquote .small {
     margin-bottom: 35px
 }
 .otz:last-child {
-    margin-bottom: 0px
+    margin-bottom: 0
 }
 .auth img {
     border-radius: 2px;
@@ -2867,7 +2866,7 @@ blockquote footer, blockquote small, blockquote .small {
 }
 .testimonials p.testimonial-author {
     text-align: center;
-    margin-top: 0px;
+    margin-top: 0;
     font-family: raleway;
     font-size: 14px;
     color: #eee;
@@ -2892,7 +2891,7 @@ blockquote footer, blockquote small, blockquote .small {
     font-size: 13px;
     font-weight: 300;
     line-height: 70px;
-    margin: 0px;
+    margin: 0;
 }
 .twitter-footer .paginat {
     line-height: 70px;
@@ -2932,7 +2931,7 @@ blockquote footer, blockquote small, blockquote .small {
 }
 .help-block {
     display: block;
-    margin-top: 0px;
+    margin-top: 0;
     margin-bottom: 15px;
 }
 .help-block li {
@@ -2971,7 +2970,7 @@ form#contact {
     background-color: #eee;
     margin-bottom: 40px;
 }
-#back-to-top{
+#back-to-top {
     background: transparent;
     margin: 0;
     position: fixed;
@@ -2985,6 +2984,6 @@ form#contact {
     color: #fff;
     cursor: pointer;
 }
-#back-to-top i{
+#back-to-top i {
     font-size: 300%;
 }
