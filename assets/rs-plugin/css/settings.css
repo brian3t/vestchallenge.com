@@ -1471,3 +1471,4 @@ div.font_size_120p *{
 /*@media (max-width: 1200px) {*/
 	/*#bk_img, div.tp-bgimg{display: none}*/
 /*}*/
+.testimonials img{max-width: 120px}

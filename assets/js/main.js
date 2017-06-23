@@ -73,12 +73,12 @@
         /* Twitter */
 
 
-        $('.tweet').twittie({
-            username: 'YOUR_USERNAME',
-            template: '{{tweet}}',
-            count: 10,
-            hideReplies: true
-        });
+        // $('.tweet').twittie({
+        //     username: 'YOUR_USERNAME',
+        //     template: '{{tweet}}',
+        //     count: 10,
+        //     hideReplies: true
+        // });
 
 
         /* Twitter */
